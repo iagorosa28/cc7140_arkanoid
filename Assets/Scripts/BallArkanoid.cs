@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class BallArkanoid : MonoBehaviour
 {
-    public float launchForceX = 200f; // força horizontal inicial
-    public float launchForceY = 250f; // força vertical inicial
+    public float launchForceX = 0.20f; // força horizontal inicial
+    public float launchForceY = 0.25f; // força vertical inicial
 
     Rigidbody2D rb;
 
@@ -30,7 +30,7 @@ public class BallArkanoid : MonoBehaviour
         transform.position = Vector2.zero;
     }
 
-    public void restartBall()
+    public void RestartBall()
     {
         ResetBall();
         Invoke(nameof(Launch), 1.0f);
@@ -39,7 +39,7 @@ public class BallArkanoid : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D coll)
     {
         // Rebate com "efeito" na raquete
-        if (coll.gameObject.CompareTag("Paddle"))
+        if (coll.gameObject.CompareTag("Player"))
         {
             Vector2 v = rb.linearVelocity;
             float paddleVy = coll.collider.attachedRigidbody ?

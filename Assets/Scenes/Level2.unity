@@ -197,7 +197,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!1 &234658455
+--- !u!1 &222374444
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -205,8 +205,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 234658457}
-  - component: {fileID: 234658456}
+  - component: {fileID: 222374446}
+  - component: {fileID: 222374445}
   m_Layer: 0
   m_Name: Progressor
   m_TagString: Untagged
@@ -214,25 +214,25 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &234658456
+--- !u!114 &222374445
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234658455}
+  m_GameObject: {fileID: 222374444}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ff75f7a2bc3173a4193c730ace0a7fba, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: '::'
---- !u!4 &234658457
+  m_EditorClassIdentifier: Assembly-CSharp::LevelProgressor
+--- !u!4 &222374446
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 234658455}
+  m_GameObject: {fileID: 222374444}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.91805, y: -1.31231, z: 0}
@@ -337,6 +337,63 @@ PrefabInstance:
     - target: {fileID: 6030425162420826923, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
       propertyPath: m_Name
       value: Brick (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+--- !u!1001 &726668920
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6030425162420826923, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_Name
+      value: Brick (4)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -456,6 +513,63 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
+--- !u!1001 &972270909
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4209222321071743630, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6030425162420826923, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
+      propertyPath: m_Name
+      value: Brick (3)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e849066cfbf2b5546a96eba8297f8793, type: 3}
 --- !u!1 &997225228
 GameObject:
   m_ObjectHideFlags: 0
@@ -1239,5 +1353,7 @@ SceneRoots:
   - {fileID: 4116916135205198037}
   - {fileID: 564139677}
   - {fileID: 1797091555}
+  - {fileID: 972270909}
   - {fileID: 347360910}
-  - {fileID: 234658457}
+  - {fileID: 726668920}
+  - {fileID: 222374446}

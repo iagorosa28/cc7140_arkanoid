@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class BottomKillZone : MonoBehaviour
 {
 
-    private void OnTriggerEnter2D(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if(other.CompareTag("Ball"))
         {
@@ -15,7 +15,7 @@ public class BottomKillZone : MonoBehaviour
             var ball = other.GetComponent<BallArkanoid>();
             if(ball != null && GameManagerArkanoid.Lives > 0)
             {
-                ball.restartBall();
+                ball.RestartBall();
             }
         }
     }
