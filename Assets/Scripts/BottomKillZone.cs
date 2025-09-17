@@ -13,7 +13,7 @@ public class BottomKillZone : MonoBehaviour
 
             // reinicia a bola se ainda houver vidas
             var ball = other.GetComponent<BallArkanoid>();
-            if(ball != null && GameManagerArkanoid.lives > 0)
+            if(ball != null && GameManagerArkanoid.Lives > 0)
             {
                 ball.restartBall();
             }
